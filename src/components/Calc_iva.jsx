@@ -11,8 +11,8 @@ function Calc_iva() {
   };
 
   return (
-    <div className=' mx-auto'>
-      <h2 className=''>Calculadora de IVA</h2>
+    <div className='mx-auto '>
+      <h2 className='text-white'>Calculadora de IVA</h2>
       <div>
         <label>Precio: </label>
         <input
