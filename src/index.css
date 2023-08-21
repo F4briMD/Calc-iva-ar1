@@ -8,6 +8,9 @@ body{
 
 @layer base{
   .section {
-    @apply  py-8 lg:py-24 lg:h-screen flex items-start justify-center   ;
+    @apply  flex items-start justify-center py-8 lg:py-24 lg:h-screen ;
+  }
+  .placeholderiva{
+    @apply max-w-[300px] text-slate-600 text-center rounded-lg 
   }
 }
