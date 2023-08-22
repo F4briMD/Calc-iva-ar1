@@ -11,6 +11,6 @@ body{
     @apply  flex items-start justify-center py-8 lg:py-24 lg:h-screen ;
   }
   .placeholderiva{
-    @apply max-w-[300px] text-slate-600 text-center rounded-lg 
+    @apply max-w-[300px] py-2 text-3xl bg-slate-300 text-slate-600 text-center rounded-lg focus:outline-none ring-4 ring-blue-500 ring-inset focus:ring-cyan-400 focus:border-cyan-400 ;
   }
 }
