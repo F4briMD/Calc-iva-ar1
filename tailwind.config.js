@@ -2,7 +2,12 @@
 export default {
   content: ['./index.html','./src/**/*.{html,jsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Roboto:['Roboto Mono', 'monospace'],
+        Poppins:['Poppins', 'sans-serif']
+      },
+    },
     container:{
       padding:{
         // default:'15px',
