@@ -48,7 +48,7 @@ function Calc_iva() {
       
       <div className='grid grid-cols-2 gap-5 my-5'>
       <div className='flex flex-col items-center '>
-        <label className='text-2xl'>Precio: </label>
+        <label className='text-2xl text-slate-400'>Precio</label>
         <input
           type="number"
           value={isNaN(precio) ? '' : precio}
@@ -57,7 +57,7 @@ function Calc_iva() {
         />
       </div>
       <div className='flex flex-col items-center'>
-        <label className='text-2xl'>Tasa de IVA (%): </label>
+        <label className='text-2xl text-slate-400'>Tasa de IVA (%)</label>
         <input
           type="text"
           value={isNaN(tasaIVA)? '' : tasaIVA}
@@ -72,8 +72,8 @@ function Calc_iva() {
         {error && <p className='text-lg text-red-500'>{error}</p>}
         {mostrarTolIva && (
       <div className='grid items-center grid-rows-2 my-5 text-2xl font-normal text-left gap-y-5'>
-        <p className=''>IVA Calculado: <span className='pl-5 text-3xl'>{isNaN(iva) ? '' : iva.toFixed(2)}</span></p>
-        <p className=''>Precio Total con IVA: <span className='pl-5 text-3xl underline underline-offset-8 decoration-blue-700'>{isNaN(calcularTotalConIVA()) ? '':  calcularTotalConIVA().toFixed(2)}</span></p>
+        <p className='text-slate-400'>IVA Calculado : <span className='pl-5 text-3xl text-white'>{isNaN(iva) ? '' : iva.toFixed(2)}</span></p>
+        <p className='text-slate-400'>Precio Total con IVA : <span className='pl-5 text-3xl text-white underline underline-offset-8 decoration-blue-700'>{isNaN(calcularTotalConIVA()) ? '':  calcularTotalConIVA().toFixed(2)}</span></p>
       </div>
     )}
     <div>

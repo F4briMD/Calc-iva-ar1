@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
 body{
   /* background: rgb(25, 23, 36); */
   background: rgb(27, 40, 56);
@@ -21,6 +29,6 @@ body{
 
 @layer components{
   .btncal{
-    @apply p-2 my-4 text-lg font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition duration-300 hover:ring-2 hover:ring-sky-200 hover:ring-inset
+    @apply p-2 my-4 text-lg font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition duration-300 hover:ring-1 hover:ring-sky-200 
   }
 }
