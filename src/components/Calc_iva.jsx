@@ -46,7 +46,7 @@ function Calc_iva() {
   return (
     <section className='max-w-4xl p-5 text-center'>
       
-      <div className='grid grid-cols-2 gap-5 my-5'>
+      <div className='grid grid-cols-1 grid-rows-2 gap-5 my-5 md:grid-cols-2 md:grid-rows-1'>
       <div className='flex flex-col items-center '>
         <label className='text-2xl text-slate-400'>Precio</label>
         <input
