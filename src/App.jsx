@@ -30,7 +30,7 @@ function App() {
       <ValorDolar dolarBlueData={dolarBlueData} loading={loading}/>
 
       <section className="flex flex-col items-center justify-center h-screen mx-auto ">
-        <h2 className="p-5 font-medium underline mb-7 underline-offset-8 decoration-blue-600">
+        <h2 className="p-5 font-medium underline mb-7 underline-offset-8 max-md:text-center decoration-blue-600">
           Calculadora de <span className="text-blue-500">IVA</span>
         </h2>
         <Calc_iva/>
