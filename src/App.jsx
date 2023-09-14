@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Calc_iva from "./components/Calc_iva";
 import ValorDolar from "./components/ValorDolar";
+import Footer from "./components/Footer";
 
 function App() {
   const [dolarBlueData, setDolarBlueData] = useState([]);
@@ -35,6 +36,7 @@ function App() {
         </h2>
         <Calc_iva/>
       </section>
+      <Footer/>
     </main>
   );
 }
