@@ -74,8 +74,8 @@ function Calc_iva() {
         {error && <p className='text-lg text-red-500'>{error}</p>}
         {mostrarTolIva && (
       <div className='grid items-center grid-rows-2 my-5 text-2xl font-normal text-left gap-y-5'>
-        <p className='text-slate-400'>IVA Calculado : <span className='pl-5 text-3xl text-white'>{isNaN(iva) ? '' : iva.toFixed(2)}</span></p>
-        <p className='text-slate-400'>Precio Total con IVA : <span className='pl-5 text-3xl text-white underline underline-offset-8 decoration-blue-700'>{isNaN(calcularTotalConIVA()) ? '':  calcularTotalConIVA().toFixed(2)}</span></p>
+        <p className='text-slate-400 max-md:flex-col max-md:flex '>IVA Calculado : <span className='pl-5 text-3xl text-white '>{isNaN(iva) ? '' : iva.toFixed(2)}</span></p>
+        <p className='text-slate-400 max-md:flex-col max-md:flex '>Precio Total con IVA : <span className='pl-5 text-3xl text-white underline underline-offset-8 decoration-blue-700'>{isNaN(calcularTotalConIVA()) ? '':  calcularTotalConIVA().toFixed(2)}</span></p>
       </div>
     )}
  
