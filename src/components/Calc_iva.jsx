@@ -8,6 +8,8 @@ function Calc_iva() {
   const [error,setError] = useState ('')
 
 
+
+
   // const isNumero=(value)=>{
   //     return /^-?\d+(?:[.,]\d*?)?$/.test(value)
   // }
@@ -76,9 +78,7 @@ function Calc_iva() {
         <p className='text-slate-400'>Precio Total con IVA : <span className='pl-5 text-3xl text-white underline underline-offset-8 decoration-blue-700'>{isNaN(calcularTotalConIVA()) ? '':  calcularTotalConIVA().toFixed(2)}</span></p>
       </div>
     )}
-    <div>
-
-</div>
+ 
 
     </section>
   );
