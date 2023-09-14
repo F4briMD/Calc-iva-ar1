@@ -36,6 +36,7 @@ function App() {
         </h2>
         <Calc_iva/>
       </section>
+      <p className="text-xs text-gray-400"><a className="transition duration-300 hover:text-white" href="https://bluelytics.com.ar/#!/" target="_blank rel='noreferrer'">ultima cotizacion:</a> {dolarBlueData.last_update}</p>
       <Footer/>
     </main>
   );
